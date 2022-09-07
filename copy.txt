@@ -1,0 +1,47 @@
+var xxx = {
+
+};
+axios
+    .post('', xxx)
+    .then((res) => {
+        if(res.data.status) {
+            toastr.success(res.data.mess);
+        } else if(res.data.status == 0) {
+            toastr.error(res.data.mess);
+        } else if(res.data.status == 2) {
+            toastr.warning(res.data.mess);
+        }
+    })
+    .catch((res) => {
+        var listE = res.response.data.errors;
+        $.each(listE, function(k, v) {
+            toastr.error(v[0]);
+        });
+    });
+
+
+@extends('admin_lte.shares.master_lte')
+@section('content')
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Lịch Sử Nhập Kho Sản Phẩm</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+        </div>
+    </div>
+</section>
+@endsection
+@section('js')
+    <script>
+        $(document).ready(function(){
+
+        })
+    </script>
+@endsection

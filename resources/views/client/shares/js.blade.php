@@ -1,0 +1,16 @@
+<script src="/assets_client/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="/assets_client/js/popper.min.js"></script>
+<script src="/assets_client/js/bootstrap.min.js"></script>
+<script src="/assets_client/js/owl.carousel.min.js"></script>
+<script src="/assets_client/js/isotope.pkgd.min.js"></script>
+<script src="/assets_client/js/one-page-nav-min.js"></script>
+<script src="/assets_client/js/slick.min.js"></script>
+<script src="/assets_client/js/jquery.meanmenu.min.js"></script>
+<script src="/assets_client/js/ajax-form.js"></script>
+<script src="/assets_client/js/wow.min.js"></script>
+<script src="/assets_client/js/jquery.scrollUp.min.js"></script>
+<script src="/assets_client/js/jquery.final-countdown.min.js"></script>
+<script src="/assets_client/js/imagesloaded.pkgd.min.js"></script>
+<script src="/assets_client/js/jquery.magnific-popup.min.js"></script>
+<script src="/assets_client/js/plugins.js"></script>
+<script src="/assets_client/js/main.js"></script>
